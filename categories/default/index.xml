@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Default on John&#39;s two cents</title>
+    <link>http://johnski001.com/categories/default/</link>
+    <description>Recent content in Default on John&#39;s two cents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-BE</language>
+    <lastBuildDate>Mon, 31 Oct 2022 17:11:29 +0100</lastBuildDate><atom:link href="http://johnski001.com/categories/default/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to John&#39;s two cents</title>
+      <link>http://johnski001.com/post/2022/welcome-to-my-blog/</link>
+      <pubDate>Mon, 31 Oct 2022 17:11:29 +0100</pubDate>
+      
+      <guid>http://johnski001.com/post/2022/welcome-to-my-blog/</guid>
+      <description>Hi,
+After some years of absence in the blog-o-sphere, I decided to start writing again. After running a successfull blog for quite some time I was ready to take some time off as running the blog was too time-consuming.
+I had the joy back then to organize Blogosphere, a meetup for Belgian bloggers, work with PR agencies and attend different press events. I guess I did all what I wanted to achieve back in the day.</description>
+    </item>
+    
+  </channel>
+</rss>
