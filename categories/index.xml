@@ -6,7 +6,16 @@
     <description>Recent content in Categories on John&#39;s Two Cents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-BE</language>
-    <lastBuildDate>Mon, 31 Oct 2022 17:11:29 +0100</lastBuildDate><atom:link href="http://johnski001.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Nov 2022 07:00:00 +0100</lastBuildDate><atom:link href="http://johnski001.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogging</title>
+      <link>http://johnski001.com/categories/blogging/</link>
+      <pubDate>Fri, 04 Nov 2022 07:00:00 +0100</pubDate>
+      
+      <guid>http://johnski001.com/categories/blogging/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Default</title>
       <link>http://johnski001.com/categories/default/</link>

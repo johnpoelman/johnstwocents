@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on John&#39;s Two Cents</title>
+    <link>http://johnski001.com/tags/hugo/</link>
+    <description>Recent content in hugo on John&#39;s Two Cents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-BE</language>
+    <lastBuildDate>Fri, 04 Nov 2022 07:00:00 +0100</lastBuildDate><atom:link href="http://johnski001.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This blog costs less then 10$ per year</title>
+      <link>http://johnski001.com/post/2022/this-blog-costs-less-then-ten-dollars-per-year/</link>
+      <pubDate>Fri, 04 Nov 2022 07:00:00 +0100</pubDate>
+      
+      <guid>http://johnski001.com/post/2022/this-blog-costs-less-then-ten-dollars-per-year/</guid>
+      <description>Yes, it is possible. You can run a website for virtually no money thanks to a couple of software and services. Actually, you don&amp;rsquo;t need a full fledged CMS for a personal website.
+ A CMS is the abbreviation of a content management system and is a website that&amp;rsquo;s built around a database and forms to add content to the website. This means a lot of code that can be abused by not so friendly visitors.</description>
+    </item>
+    
+  </channel>
+</rss>

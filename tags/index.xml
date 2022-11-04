@@ -5,6 +5,25 @@
     <link>http://johnski001.com/tags/</link>
     <description>Recent content in Tags on John&#39;s Two Cents</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-BE</language><atom:link href="http://johnski001.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-BE</language>
+    <lastBuildDate>Fri, 04 Nov 2022 07:00:00 +0100</lastBuildDate><atom:link href="http://johnski001.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>github</title>
+      <link>http://johnski001.com/tags/github/</link>
+      <pubDate>Fri, 04 Nov 2022 07:00:00 +0100</pubDate>
+      
+      <guid>http://johnski001.com/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>http://johnski001.com/tags/hugo/</link>
+      <pubDate>Fri, 04 Nov 2022 07:00:00 +0100</pubDate>
+      
+      <guid>http://johnski001.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
