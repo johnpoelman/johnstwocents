@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en-BE">
+  <head>
+    <title>Sonos on a different vlan using the Unifi USG // John&#39;s Two Cents</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="John Poelman" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="http://johnski001.com/css/main.min.0fb49e70a30412f97ddfc418e18fefef1d9fcdebe45f634dbbba768b00fe1eec.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Sonos on a different vlan using the Unifi USG"/>
+<meta name="twitter:description" content="Lately, I have been doing some changes on my home network that involved vlanning. Of course, when you say vlan &amp; Sonos in one sentence you&rsquo;ve got to make ready for some issues. You can find my lessons learned in this blog. I can tell you that it wasn&rsquo;t easy to overcome this.
+Situation My network looks a little bit like this:
+ Vlan: Internet of things Vlan: End user devices Lan with all the Unifi devices  I&rsquo;m using a Unifi Cloudkey Gen2 plus as my Unifi controller."/>
+
+    <meta property="og:title" content="Sonos on a different vlan using the Unifi USG" />
+<meta property="og:description" content="Lately, I have been doing some changes on my home network that involved vlanning. Of course, when you say vlan &amp; Sonos in one sentence you&rsquo;ve got to make ready for some issues. You can find my lessons learned in this blog. I can tell you that it wasn&rsquo;t easy to overcome this.
+Situation My network looks a little bit like this:
+ Vlan: Internet of things Vlan: End user devices Lan with all the Unifi devices  I&rsquo;m using a Unifi Cloudkey Gen2 plus as my Unifi controller." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-11-19T07:00:05+01:00" />
+<meta property="article:modified_time" content="2022-11-19T07:00:05+01:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://johnski001.com/"><img class="app-header-avatar" src="/img/avatar.jpg" alt="John Poelman" /></a>
+      <span class="app-header-title">John&#39;s Two Cents</span>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Home</a>
+             - 
+          
+          <a class="app-header-menu-item" href="/categories">Categories</a>
+      </nav>
+      <p>Eighties kid, huge fan of boardgames and geeky stuff &amp; oh... IT too</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/johnpoelman" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>Github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://www.twitch.tv/johnski_001" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitch">
+  <title>Twitch</title>
+  <path d="M21 2H3v16h5v4l4-4h5l4-4V2zM11 11V7M16 11V7"></path>
+</svg>
+          </a>
+        
+          <a href="https://www.youtube.com/@johns2cents" target="_blank" rel="noreferrer noopener me">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-youtube">
+  <title>YouTube</title>
+  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Sonos on a different vlan using the Unifi USG</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Nov 19, 2022
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          4 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="http://johnski001.com/tags/unifi/">unifi</a>
+              <a class="tag" href="http://johnski001.com/tags/sonos/">sonos</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Lately, I have been doing some changes on my home network that involved vlanning. Of course, when you say <a href="https://nl.wikipedia.org/wiki/Virtual_LAN">vlan</a> &amp; <a href="https://www.sonos.com/nl-be/home">Sonos</a> in one sentence you&rsquo;ve got to make ready for some issues. You can find my lessons learned in this blog. I can tell you that it wasn&rsquo;t easy to overcome this.</p>
+<h2 id="situation">Situation</h2>
+<p>My network looks a little bit like this:</p>
+<ul>
+<li><strong>Vlan</strong>: Internet of things</li>
+<li><strong>Vlan</strong>: End user devices</li>
+<li>Lan with all the Unifi devices</li>
+</ul>
+<p>I&rsquo;m using a <a href="https://eu.store.ui.com/collections/unifi-accessories-cloud-key/products/unifi-cloudkey-gen2-plus">Unifi Cloudkey Gen2 plus</a> as my Unifi controller.</p>
+<p>When looking around for a solution and implementing it I noticed that the above setup can&rsquo;t work in the Unifi environment and the reason is this. It looks like you can have your controllers (cellphones, pc&rsquo;s etc&hellip;) in a separate vlan but not both tagged vlans. I tested this several times to be sure I didn&rsquo;t make any stupid errors but I didn&rsquo;t make any. Thumbs up!</p>
+<p>This functionality works when changing the topology a bit. The first thing I had to do was removing the vlan for the end user devices and allow these devices to be a part of the LAN where the Unifi devices reside. The Sonos devices stay in the IOT vlan. Then, when you implement the configuration that I will tell you in a minute, everything should work as expected.</p>
+<h2 id="the-solution">The solution</h2>
+<p>The solution holds different steps that you need to do on different locations. For ease of use I will split them up into different parts.</p>
+<h3 id="the-unifi-controller">The Unifi controller</h3>
+<p>In the controller you have to enable mDNS (multicast DNS) and IGMP snooping as the first steps. You have to do this for <strong>each network separately</strong>. You can find the setting in the <strong>advanced configuration</strong> section of each network.</p>
+<p><img src="/img/unifi/enable_mdns.png" alt="enable mDNS & IGMP"></p>
+<blockquote>
+<p>Remember to do this for both networks, <strong>LAN</strong> &amp; the network where <strong>the Sonos devices are located</strong> in.</p>
+</blockquote>
+<p>After doing this wait until all Unifi devices are provisioned and back online. The next thing you have to do is <strong>enabling SSH access for the Unifi USG and your controller</strong>. For enabling this for your USG go to the <em>controller &gt; settings &gt; System</em> and scroll down until you see the setting below.</p>
+<p><img src="/img/unifi/enable_ssh_usg.png" alt="enable ssh for Unifi devices"></p>
+<p>To do the same for the controller go to <em>unifi OS &gt; settings &gt; System</em> and scroll down until you see the checkbox that enables SSH. Validate your choice and enter the password to complete the procedure.</p>
+<p><img src="/img/unifi/enable_ssh_controller.png" alt="enable ssh for Unifi Cloud Key"></p>
+<h3 id="the-unifi-security-gateway-usg">The Unifi Security Gateway (USG)</h3>
+<p>The commands you have to do after SSH&rsquo;ing into your USG are the following and <a href="https://community.ui.com/questions/VLAN-inter-accessibility-for-MultiCast-devices-SONOS-Chromecast-Airtame-etc/f4d7a07c-d4ea-4238-8265-38ccd6e904c7">intellectual property of Swynol</a>. Before we start, first some clarification:</p>
+<ul>
+<li><strong>Upstream</strong>: The LAN network where you client devices live in.</li>
+<li><strong>Downstream</strong>: The IOT network where the Sonos devices live in.</li>
+</ul>
+<p>You will also need the vlan number (PVID) of the IOT network, substitute <code>&lt;PVID&gt;</code> with it in the lines below. <strong>Important, after every line press enter!</strong></p>
+<pre><code>configure
+edit protocols igmp-proxy
+set interface eth1.&lt;PVID&gt; role downstream
+set interface eth1.&lt;PVID&gt; threshold 1
+set interface eth1.&lt;PVID&gt; alt-subnet 0.0.0.0/0
+set interface eth1 role upstream
+set interface eth1 threshold 1
+set interface eth1 alt-subnet 0.0.0.0/0
+exit
+commit
+save
+</code></pre>
+<p>At this point you can test wether the solution works or not. If you can see you Sonos devices in Spotify or the Sonos app, all went well. Congratulations!
+The next thing you have to do is making sure that this configurations doesn&rsquo;t get overwritten by the controller because the controller is where all the configuration happens.</p>
+<h3 id="the-controller-aka-cloud-key-gen2-plus">The controller aka Cloud Key Gen2 plus</h3>
+<p>In my setup I&rsquo;m using the hardware controller instead of any <a href="https://www.ui.com/download-software/">Windows-</a> or <a href="https://hub.docker.com/r/linuxserver/unifi-controller">Dockersolution</a>. After SSH&rsquo;ing into your controller perform the following steps:</p>
+<pre><code>cd /srv/unifi/data/sites/default
+vi config.gateway.json
+press i
+paste the below code in this file
+press ESC
+Type :wq
+Exit the SSH session
+</code></pre>
+<p>Example <strong>config.gateway.json</strong>, again substitute <code>&lt;PVID&gt;</code> with your IOT network PVID.</p>
+<pre><code>{
+&quot;protocols&quot;: {
+        &quot;igmp-proxy&quot;: {
+            &quot;interface&quot;: {
+                &quot;eth1&quot;: {
+                    &quot;role&quot;: &quot;upstream&quot;,
+                    &quot;threshold&quot;: &quot;1&quot;,
+                    &quot;alt-subnet&quot;: &quot;0.0.0.0/0&quot;
+                },
+                &quot;eth1.&lt;PVID&gt;&quot;: {
+                    &quot;role&quot;: &quot;downstream&quot;,
+                    &quot;threshold&quot;: &quot;1&quot;,
+                    &quot;alt-subnet&quot;: &quot;0.0.0.0/0&quot;
+                }
+            }
+        }
+    }
+}
+</code></pre>
+<p>So, this is it. You can test the complete solution by rebooting your USG. When Sonos is still usable, everything went well.</p>
+<p>Thanks for reading!</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
