@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>openai on John&#39;s Two Cents</title>
+    <link>http://johnski001.com/tags/openai/</link>
+    <description>Recent content in openai on John&#39;s Two Cents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-BE</language>
+    <lastBuildDate>Sat, 10 Dec 2022 20:05:03 +0100</lastBuildDate><atom:link href="http://johnski001.com/tags/openai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello my name Is Chatgpt!</title>
+      <link>http://johnski001.com/post/2022/hello-my-name-is-chatgpt/</link>
+      <pubDate>Sat, 10 Dec 2022 20:05:03 +0100</pubDate>
+      
+      <guid>http://johnski001.com/post/2022/hello-my-name-is-chatgpt/</guid>
+      <description>Technology is something that is constantly evolving. When you take a look at Gartner&amp;rsquo;s hypecycle you can see a curve that shows you which technologies are coming our way. You will see a couple of different topics regarding AI, and that&amp;rsquo;s where todays post is talking about.
+A big name in this artificial intelligence space is OpenAI thanks to it&amp;rsquo;s 2 big projects that you can recognize by the names of:</description>
+    </item>
+    
+  </channel>
+</rss>

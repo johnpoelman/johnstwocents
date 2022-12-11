@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://johnski001.com/categories/artificial-intelligence/</loc>
+    <lastmod>2022-12-10T20:05:03+01:00</lastmod>
+  </url><url>
+    <loc>http://johnski001.com/categories/</loc>
+    <lastmod>2022-12-10T20:05:03+01:00</lastmod>
+  </url><url>
+    <loc>http://johnski001.com/post/2022/hello-my-name-is-chatgpt/</loc>
+    <lastmod>2022-12-10T20:05:03+01:00</lastmod>
+  </url><url>
+    <loc>http://johnski001.com/</loc>
+    <lastmod>2022-12-10T20:05:03+01:00</lastmod>
+  </url><url>
+    <loc>http://johnski001.com/tags/openai/</loc>
+    <lastmod>2022-12-10T20:05:03+01:00</lastmod>
+  </url><url>
+    <loc>http://johnski001.com/post/</loc>
+    <lastmod>2022-12-10T20:05:03+01:00</lastmod>
+  </url><url>
+    <loc>http://johnski001.com/tags/</loc>
+    <lastmod>2022-12-10T20:05:03+01:00</lastmod>
+  </url><url>
     <loc>http://johnski001.com/categories/3d-printing/</loc>
     <lastmod>2022-12-03T07:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://johnski001.com/categories/</loc>
-    <lastmod>2022-12-03T07:00:00+01:00</lastmod>
-  </url><url>
-    <loc>http://johnski001.com/</loc>
-    <lastmod>2022-12-03T07:00:00+01:00</lastmod>
-  </url><url>
     <loc>http://johnski001.com/post/2022/my-3d-printing-setup-settings/</loc>
-    <lastmod>2022-12-03T07:00:00+01:00</lastmod>
-  </url><url>
-    <loc>http://johnski001.com/post/</loc>
     <lastmod>2022-12-03T07:00:00+01:00</lastmod>
   </url><url>
     <loc>http://johnski001.com/categories/boardgames/</loc>
@@ -36,9 +48,6 @@
     <lastmod>2022-11-19T07:00:05+01:00</lastmod>
   </url><url>
     <loc>http://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/</loc>
-    <lastmod>2022-11-19T07:00:05+01:00</lastmod>
-  </url><url>
-    <loc>http://johnski001.com/tags/</loc>
     <lastmod>2022-11-19T07:00:05+01:00</lastmod>
   </url><url>
     <loc>http://johnski001.com/tags/unifi/</loc>
