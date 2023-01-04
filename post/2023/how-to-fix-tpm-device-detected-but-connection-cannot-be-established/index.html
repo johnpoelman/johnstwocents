@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en-BE">
   <head>
-    <title>Review of the Lenovo GO ANC headset // John&#39;s Two Cents</title>
+    <title>How to fix TPM device detected but connection cannot be established // John&#39;s Two Cents</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
     <meta name="generator" content="Hugo 0.92.2" />
@@ -12,15 +12,17 @@
 
     
     <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Review of the Lenovo GO ANC headset"/>
-<meta name="twitter:description" content="While the pandemic was ongoing we all switched from working at the office to working at home, todays evolution is more leaning to the hybrid working model. While I like going to the office again everyday a lot of colleagues still work more at home and that means: &ldquo;Teams meetings&rdquo;. While at work we use the Jabra headset the comfort isn&rsquo;t all that well, because of that I got myself this more luxurious and comfortable headset."/>
+<meta name="twitter:title" content="How to fix TPM device detected but connection cannot be established"/>
+<meta name="twitter:description" content="This issue crossed my path after installing VMWare ESXi on a brand new server. After logging for the first time I got a little notice that said: TPM device detected but a connection could not be established.
+With security in min this is something that you can&rsquo;t leave like this so I started a little search and I ended up with the following solution. Bare in mind, the following solution is only tested with Dell servers as I haven&rsquo;t experienced this with other brands that I use, like Lenovo."/>
 
-    <meta property="og:title" content="Review of the Lenovo GO ANC headset" />
-<meta property="og:description" content="While the pandemic was ongoing we all switched from working at the office to working at home, todays evolution is more leaning to the hybrid working model. While I like going to the office again everyday a lot of colleagues still work more at home and that means: &ldquo;Teams meetings&rdquo;. While at work we use the Jabra headset the comfort isn&rsquo;t all that well, because of that I got myself this more luxurious and comfortable headset." />
+    <meta property="og:title" content="How to fix TPM device detected but connection cannot be established" />
+<meta property="og:description" content="This issue crossed my path after installing VMWare ESXi on a brand new server. After logging for the first time I got a little notice that said: TPM device detected but a connection could not be established.
+With security in min this is something that you can&rsquo;t leave like this so I started a little search and I ended up with the following solution. Bare in mind, the following solution is only tested with Dell servers as I haven&rsquo;t experienced this with other brands that I use, like Lenovo." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://johnski001.com/post/2022/review-lenovo-go-anc-headset/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2022-12-24T14:06:40+01:00" />
-<meta property="article:modified_time" content="2022-12-24T14:06:40+01:00" />
+<meta property="og:url" content="http://johnski001.com/post/2023/how-to-fix-tpm-device-detected-but-connection-cannot-be-established/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-01-01T20:53:28+01:00" />
+<meta property="article:modified_time" content="2023-01-01T20:53:28+01:00" />
 
 
 
@@ -65,67 +67,55 @@
       
   <article class="post">
     <header class="post-header">
-      <h1 class ="post-title">Review of the Lenovo GO ANC headset</h1>
+      <h1 class ="post-title">How to fix TPM device detected but connection cannot be established</h1>
       <div class="post-meta">
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
   <title>calendar</title>
   <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
 </svg>
-          Dec 24, 2022
+          Jan 1, 2023
         </div>
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
   <title>clock</title>
   <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
 </svg>
-          3 min read
+          2 min read
         </div>
         <div>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
 </svg>
-              <a class="tag" href="http://johnski001.com/tags/homeworking/">homeworking</a>
+              <a class="tag" href="http://johnski001.com/tags/dell/">dell</a>
+              <a class="tag" href="http://johnski001.com/tags/server/">server</a>
+              <a class="tag" href="http://johnski001.com/tags/security/">security</a>
         </div>
       </div>
     </header>
     <div class="post-content">
-      <p>While the pandemic was ongoing we all switched from working at the office to working at home, todays evolution is more leaning to the <strong>hybrid working</strong> model. While I like going to the office again everyday a lot of colleagues still work more at home and that means: &ldquo;Teams meetings&rdquo;. While at work we use the Jabra headset the comfort isn&rsquo;t all that well, because of that I got myself this more luxurious and comfortable headset.</p>
-<p>So, after using it for a bit it&rsquo;s time to write a little review about it. When you buy this headset, you&rsquo;ll find the following items in the box:</p>
+      <p>This issue crossed my path after installing VMWare ESXi on a brand new server. After logging for the first time I got a little notice that said: <strong>TPM device detected but a connection could not be established.</strong></p>
+<p>With security in min this is something that you can&rsquo;t leave like this so I started a little search and I ended up with the following solution. Bare in mind, the following solution is only tested with Dell servers as I haven&rsquo;t experienced this with other brands that I use, like Lenovo.</p>
+<h2 id="solution">Solution</h2>
+<p>The following list of steps should be verified and set if you don&rsquo;t have the same settings as below.</p>
+<ol>
+<li>If you are working with a production server I strongly advise to put your ESXi server in maintenance mode.</li>
+<li>Reboot your server and use the F2 button to enter the <strong>system setup</strong> utility.</li>
+<li>Click on System BIOS.</li>
+<li>On the next page you can scroll a bit down and click on <strong>system security.</strong></li>
+<li>After this you click on <strong>TPM advanced settings</strong>, then do the following settings:
 <ul>
-<li>A durable bag for easy transportation and storing your headset and accessories.</li>
-<li>A USB A wireless interface dongle.</li>
-<li>A USB-C charging cable.</li>
-<li>The headphones.</li>
+<li>Set <strong>TPM Algorythm selection</strong> to: SHA256</li>
+<li>Click on the back button.</li>
 </ul>
-<p>Nothing special here, the basic accessories every wireless headphone needs. What I like about this is the usage of USB-C. The charging process takes a little more then an hour for a battery that last many hours of usage, more then 24 hours!</p>
-<p>For myself, the <strong>two most important features</strong> this headset has are:</p>
-<ul>
-<li>Active Noise Cancelling</li>
-<li>Environmental Noise Cancelling</li>
-</ul>
-<p>These features are so valuable when you have to make calls in a noisy office. Everyone is talking, calling, walking by and by enabling these noise cancelling features you don&rsquo;t get distracted by it. Super!</p>
-<h2 id="controlling-the-device">Controlling the device</h2>
-<p>The controls are very intuitive, you don&rsquo;t get many options so for the ease of use this is a plus. You have a couple of buttons on the sides of the headphones to perform various tasks.</p>
-<h3 id="teams-button">Teams button</h3>
-<p>This buttons let&rsquo;s you control the Teams application. If you hold it for about 3 seconds you can talk to Cortana. As this is a Microsoft technology I tend to try not to use it. Privacy and stuff.</p>
-<p><img src="/img/lenovo-anc/IMG_0373.JPEG" alt="Lenovo GO ANC wireless headset teams button"></p>
-<p>On the same side you will also find the USB-C connector to charge the headphones, next to the on/off button.</p>
-<h3 id="phone-button">Phone button</h3>
-<p>The next main button on the device is the button to control your calls. It&rsquo;s just a button on the other side of the headphones where you can answer or end calls with. Ending a call is done by pressing it a second or two. You can also us this button to control the music you are playing:</p>
-<ul>
-<li><strong>1 press</strong>: Play of Pause</li>
-<li><strong>2 presses</strong>: Next song</li>
-<li><strong>3 presses</strong>: Previous song</li>
-</ul>
-<p>Next to this button there are two simple controls to raise or lower the volume.</p>
-<p><img src="/img/lenovo-anc/IMG_0374.JPEG" alt="Lenovo GO ANC wireless headset call button"></p>
-<h2 id="accessories">Accessories</h2>
-<p>Next to the charging cable and the wireless USB dongle you get a pouch to store everything in. This pouch looks sturdy but time will tell if it really is. One thing I like about this pouch is that every accessory has it&rsquo;s own place in the bag. Easy to store, nothing to loose and everything fits like a shoe. I&rsquo;m overall happy with this one.</p>
-<p><img src="/img/lenovo-anc/IMG_0375.JPEG" alt="Lenovo GO ANC wireless headset pouch"></p>
-<p>So, these are my two cents about this headset. <strong>Please note that this blog is not sponsored</strong> and it is my opinion. Would you buy a headset like this one or are you happy with something simpler? Tell me all about in the comments!</p>
-<p>Thanks for reading.</p>
+</li>
+<li>Enable the <strong>Intel TXT</strong> option.</li>
+<li>Scroll a bit down and <strong>enable Secure boot</strong>. Click OK if you are asked to set a BIOS password. The password can be empty if you like.</li>
+<li>Leave the BIOS and click Yes to save the changes you just made.</li>
+</ol>
+<p><strong>Note:</strong> The first boot after these changes will show you a message about Secure boot being modified. This is expected behavior, just wait it out. This notice is a one-time message.</p>
+<p>I hope this helps you out! Thanks for reading!</p>
 
     </div>
     <div class="post-footer">

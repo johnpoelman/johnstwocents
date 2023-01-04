@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dell on John&#39;s Two Cents</title>
+    <link>http://johnski001.com/tags/dell/</link>
+    <description>Recent content in dell on John&#39;s Two Cents</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-BE</language>
+    <lastBuildDate>Sun, 01 Jan 2023 20:53:28 +0100</lastBuildDate><atom:link href="http://johnski001.com/tags/dell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to fix TPM device detected but connection cannot be established</title>
+      <link>http://johnski001.com/post/2023/how-to-fix-tpm-device-detected-but-connection-cannot-be-established/</link>
+      <pubDate>Sun, 01 Jan 2023 20:53:28 +0100</pubDate>
+      
+      <guid>http://johnski001.com/post/2023/how-to-fix-tpm-device-detected-but-connection-cannot-be-established/</guid>
+      <description>This issue crossed my path after installing VMWare ESXi on a brand new server. After logging for the first time I got a little notice that said: TPM device detected but a connection could not be established.
+With security in min this is something that you can&amp;rsquo;t leave like this so I started a little search and I ended up with the following solution. Bare in mind, the following solution is only tested with Dell servers as I haven&amp;rsquo;t experienced this with other brands that I use, like Lenovo.</description>
+    </item>
+    
+  </channel>
+</rss>
