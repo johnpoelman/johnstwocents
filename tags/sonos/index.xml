@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sonos on John&#39;s Two Cents</title>
-    <link>http://johnski001.com/tags/sonos/</link>
+    <link>https://johnski001.com/tags/sonos/</link>
     <description>Recent content in sonos on John&#39;s Two Cents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-BE</language>
-    <lastBuildDate>Sat, 19 Nov 2022 07:00:05 +0100</lastBuildDate><atom:link href="http://johnski001.com/tags/sonos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Nov 2022 07:00:05 +0100</lastBuildDate><atom:link href="https://johnski001.com/tags/sonos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sonos on a different vlan using the Unifi USG</title>
-      <link>http://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/</link>
+      <link>https://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/</link>
       <pubDate>Sat, 19 Nov 2022 07:00:05 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/</guid>
+      <guid>https://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/</guid>
       <description>Lately, I have been doing some changes on my home network that involved vlanning. Of course, when you say vlan &amp;amp; Sonos in one sentence you&amp;rsquo;ve got to make ready for some issues. You can find my lessons learned in this blog. I can tell you that it wasn&amp;rsquo;t easy to overcome this.
 Situation My network looks a little bit like this:
  Vlan: Internet of things Vlan: End user devices Lan with all the Unifi devices  I&amp;rsquo;m using a Unifi Cloudkey Gen2 plus as my Unifi controller.</description>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>openai on John&#39;s Two Cents</title>
-    <link>http://johnski001.com/tags/openai/</link>
+    <link>https://johnski001.com/tags/openai/</link>
     <description>Recent content in openai on John&#39;s Two Cents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-BE</language>
-    <lastBuildDate>Sat, 17 Dec 2022 19:51:58 +0100</lastBuildDate><atom:link href="http://johnski001.com/tags/openai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Dec 2022 19:51:58 +0100</lastBuildDate><atom:link href="https://johnski001.com/tags/openai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dall-E aka artificial intelligent painting</title>
-      <link>http://johnski001.com/post/2022/dall-e-artificial-intelligent-painting/</link>
+      <link>https://johnski001.com/post/2022/dall-e-artificial-intelligent-painting/</link>
       <pubDate>Sat, 17 Dec 2022 19:51:58 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/dall-e-artificial-intelligent-painting/</guid>
+      <guid>https://johnski001.com/post/2022/dall-e-artificial-intelligent-painting/</guid>
       <description>Welcome back to another blog about artificial intelligence. In case you are a new reader you should definately read the previous blog too about chatGPT, the AI chatbot! You can read it here.
  Where chatGPT is a chatbot, Dall-E is a digital artisan.
  By giving it a description of which image you want, Dall-E generates a couple of images for you and I must admit that the results are pretty whopping.</description>
@@ -20,10 +20,10 @@
     
     <item>
       <title>Hello my name Is Chatgpt!</title>
-      <link>http://johnski001.com/post/2022/hello-my-name-is-chatgpt/</link>
+      <link>https://johnski001.com/post/2022/hello-my-name-is-chatgpt/</link>
       <pubDate>Sat, 10 Dec 2022 20:05:03 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/hello-my-name-is-chatgpt/</guid>
+      <guid>https://johnski001.com/post/2022/hello-my-name-is-chatgpt/</guid>
       <description>Technology is something that is constantly evolving. When you take a look at Gartner&amp;rsquo;s hypecycle you can see a curve that shows you which technologies are coming our way. You will see a couple of different topics regarding AI, and that&amp;rsquo;s where todays post is talking about.
 A big name in this artificial intelligence space is OpenAI thanks to it&amp;rsquo;s 2 big projects that you can recognize by the names of:</description>
     </item>

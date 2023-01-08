@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>streaming on John&#39;s Two Cents</title>
-    <link>http://johnski001.com/tags/streaming/</link>
+    <link>https://johnski001.com/tags/streaming/</link>
     <description>Recent content in streaming on John&#39;s Two Cents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-BE</language>
-    <lastBuildDate>Fri, 11 Nov 2022 07:00:00 +0100</lastBuildDate><atom:link href="http://johnski001.com/tags/streaming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2022 07:00:00 +0100</lastBuildDate><atom:link href="https://johnski001.com/tags/streaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Streamdeck Installation on Linux</title>
-      <link>http://johnski001.com/post/2022/streamdeck-installation-on-linux/</link>
+      <link>https://johnski001.com/post/2022/streamdeck-installation-on-linux/</link>
       <pubDate>Fri, 11 Nov 2022 07:00:00 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/streamdeck-installation-on-linux/</guid>
+      <guid>https://johnski001.com/post/2022/streamdeck-installation-on-linux/</guid>
       <description>Nowadays streaming is a widely practiced hobby. Gaming, e-sports, etc&amp;hellip; are all things that aid to the popularity of streaming as a whole. A lot of people dream about streaming content for a living and for that you need to have a setup that enables you to do a lot of different stuff on stream, there comes the Streamdeck into play. The Streamdeck is actually a buttonbox that you can program with all kinds of functionality to enhance your streams or even you worklife.</description>
     </item>
     

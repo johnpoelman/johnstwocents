@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>John&#39;s Two Cents</title>
-    <link>http://johnski001.com/</link>
+    <link>https://johnski001.com/</link>
     <description>Recent content on John&#39;s Two Cents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-BE</language>
-    <lastBuildDate>Sun, 01 Jan 2023 20:53:28 +0100</lastBuildDate><atom:link href="http://johnski001.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2023 20:53:28 +0100</lastBuildDate><atom:link href="https://johnski001.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to fix TPM device detected but connection cannot be established</title>
-      <link>http://johnski001.com/post/2023/how-to-fix-tpm-device-detected-but-connection-cannot-be-established/</link>
+      <link>https://johnski001.com/post/2023/how-to-fix-tpm-device-detected-but-connection-cannot-be-established/</link>
       <pubDate>Sun, 01 Jan 2023 20:53:28 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2023/how-to-fix-tpm-device-detected-but-connection-cannot-be-established/</guid>
+      <guid>https://johnski001.com/post/2023/how-to-fix-tpm-device-detected-but-connection-cannot-be-established/</guid>
       <description>This issue crossed my path after installing VMWare ESXi on a brand new server. After logging for the first time I got a little notice that said: TPM device detected but a connection could not be established.
 With security in min this is something that you can&amp;rsquo;t leave like this so I started a little search and I ended up with the following solution. Bare in mind, the following solution is only tested with Dell servers as I haven&amp;rsquo;t experienced this with other brands that I use, like Lenovo.</description>
     </item>
     
     <item>
       <title>Review of the Lenovo GO ANC headset</title>
-      <link>http://johnski001.com/post/2022/review-lenovo-go-anc-headset/</link>
+      <link>https://johnski001.com/post/2022/review-lenovo-go-anc-headset/</link>
       <pubDate>Sat, 24 Dec 2022 14:06:40 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/review-lenovo-go-anc-headset/</guid>
+      <guid>https://johnski001.com/post/2022/review-lenovo-go-anc-headset/</guid>
       <description>While the pandemic was ongoing we all switched from working at the office to working at home, todays evolution is more leaning to the hybrid working model. While I like going to the office again everyday a lot of colleagues still work more at home and that means: &amp;ldquo;Teams meetings&amp;rdquo;. While at work we use the Jabra headset the comfort isn&amp;rsquo;t all that well, because of that I got myself this more luxurious and comfortable headset.</description>
     </item>
     
     <item>
       <title>Dall-E aka artificial intelligent painting</title>
-      <link>http://johnski001.com/post/2022/dall-e-artificial-intelligent-painting/</link>
+      <link>https://johnski001.com/post/2022/dall-e-artificial-intelligent-painting/</link>
       <pubDate>Sat, 17 Dec 2022 19:51:58 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/dall-e-artificial-intelligent-painting/</guid>
+      <guid>https://johnski001.com/post/2022/dall-e-artificial-intelligent-painting/</guid>
       <description>Welcome back to another blog about artificial intelligence. In case you are a new reader you should definately read the previous blog too about chatGPT, the AI chatbot! You can read it here.
  Where chatGPT is a chatbot, Dall-E is a digital artisan.
  By giving it a description of which image you want, Dall-E generates a couple of images for you and I must admit that the results are pretty whopping.</description>
@@ -39,39 +39,39 @@ With security in min this is something that you can&amp;rsquo;t leave like this 
     
     <item>
       <title>Hello my name Is Chatgpt!</title>
-      <link>http://johnski001.com/post/2022/hello-my-name-is-chatgpt/</link>
+      <link>https://johnski001.com/post/2022/hello-my-name-is-chatgpt/</link>
       <pubDate>Sat, 10 Dec 2022 20:05:03 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/hello-my-name-is-chatgpt/</guid>
+      <guid>https://johnski001.com/post/2022/hello-my-name-is-chatgpt/</guid>
       <description>Technology is something that is constantly evolving. When you take a look at Gartner&amp;rsquo;s hypecycle you can see a curve that shows you which technologies are coming our way. You will see a couple of different topics regarding AI, and that&amp;rsquo;s where todays post is talking about.
 A big name in this artificial intelligence space is OpenAI thanks to it&amp;rsquo;s 2 big projects that you can recognize by the names of:</description>
     </item>
     
     <item>
       <title>My 3D Printing Setup and settings</title>
-      <link>http://johnski001.com/post/2022/my-3d-printing-setup-settings/</link>
+      <link>https://johnski001.com/post/2022/my-3d-printing-setup-settings/</link>
       <pubDate>Sat, 03 Dec 2022 07:00:00 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/my-3d-printing-setup-settings/</guid>
+      <guid>https://johnski001.com/post/2022/my-3d-printing-setup-settings/</guid>
       <description>Often questions are asked about how I do my 3D prints. 3D Printing is a hobby that&amp;rsquo;s getting picked up by a broader audience at this point. The main reason for this according to my humble self is the current pricepoint to start with. You can have a decent 3D printer for about 200 euro, this can give you already some decent results and it gets even better when you perform some basic upgrades.</description>
     </item>
     
     <item>
       <title>Subatomic a game about cool physics and chemistry!</title>
-      <link>http://johnski001.com/post/2022/subatomic-a-game-about-physics/</link>
+      <link>https://johnski001.com/post/2022/subatomic-a-game-about-physics/</link>
       <pubDate>Sat, 26 Nov 2022 07:00:00 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/subatomic-a-game-about-physics/</guid>
+      <guid>https://johnski001.com/post/2022/subatomic-a-game-about-physics/</guid>
       <description>A cool thing about playing boardgames is that from time to time you can really learn something. In Subatomic you can learn a lot about cool physics and chemistry!
 This game is a game that I backed on Kickstarter a couple of years ago and has been played a couple of times with my kids back in the day. The coolest thing about this is that I have a numbered edition, I have 224 out of 3400!</description>
     </item>
     
     <item>
       <title>Sonos on a different vlan using the Unifi USG</title>
-      <link>http://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/</link>
+      <link>https://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/</link>
       <pubDate>Sat, 19 Nov 2022 07:00:05 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/</guid>
+      <guid>https://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/</guid>
       <description>Lately, I have been doing some changes on my home network that involved vlanning. Of course, when you say vlan &amp;amp; Sonos in one sentence you&amp;rsquo;ve got to make ready for some issues. You can find my lessons learned in this blog. I can tell you that it wasn&amp;rsquo;t easy to overcome this.
 Situation My network looks a little bit like this:
  Vlan: Internet of things Vlan: End user devices Lan with all the Unifi devices  I&amp;rsquo;m using a Unifi Cloudkey Gen2 plus as my Unifi controller.</description>
@@ -79,29 +79,29 @@ Situation My network looks a little bit like this:
     
     <item>
       <title>Streamdeck Installation on Linux</title>
-      <link>http://johnski001.com/post/2022/streamdeck-installation-on-linux/</link>
+      <link>https://johnski001.com/post/2022/streamdeck-installation-on-linux/</link>
       <pubDate>Fri, 11 Nov 2022 07:00:00 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/streamdeck-installation-on-linux/</guid>
+      <guid>https://johnski001.com/post/2022/streamdeck-installation-on-linux/</guid>
       <description>Nowadays streaming is a widely practiced hobby. Gaming, e-sports, etc&amp;hellip; are all things that aid to the popularity of streaming as a whole. A lot of people dream about streaming content for a living and for that you need to have a setup that enables you to do a lot of different stuff on stream, there comes the Streamdeck into play. The Streamdeck is actually a buttonbox that you can program with all kinds of functionality to enhance your streams or even you worklife.</description>
     </item>
     
     <item>
       <title>This blog costs less then 10$ per year</title>
-      <link>http://johnski001.com/post/2022/this-blog-costs-less-then-ten-dollars-per-year/</link>
+      <link>https://johnski001.com/post/2022/this-blog-costs-less-then-ten-dollars-per-year/</link>
       <pubDate>Fri, 04 Nov 2022 07:00:00 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/this-blog-costs-less-then-ten-dollars-per-year/</guid>
+      <guid>https://johnski001.com/post/2022/this-blog-costs-less-then-ten-dollars-per-year/</guid>
       <description>Yes, it is possible. You can run a website for virtually no money thanks to a couple of software and services. Actually, you don&amp;rsquo;t need a full fledged CMS for a personal website.
  A CMS is the abbreviation of a content management system and is a website that&amp;rsquo;s built around a database and forms to add content to the website. This means a lot of code that can be abused by not so friendly visitors.</description>
     </item>
     
     <item>
       <title>Welcome to John&#39;s two cents</title>
-      <link>http://johnski001.com/post/2022/welcome-to-my-blog/</link>
+      <link>https://johnski001.com/post/2022/welcome-to-my-blog/</link>
       <pubDate>Mon, 31 Oct 2022 17:11:29 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/welcome-to-my-blog/</guid>
+      <guid>https://johnski001.com/post/2022/welcome-to-my-blog/</guid>
       <description>Hi,
 After some years of absence in the blog-o-sphere, I decided to start writing again. After running a successfull blog for quite some time I was ready to take some time off as running the blog was too time-consuming.
 I had the joy back then to organize Blogosphere, a meetup for Belgian bloggers, work with PR agencies and attend different press events. I guess I did all what I wanted to achieve back in the day.</description>

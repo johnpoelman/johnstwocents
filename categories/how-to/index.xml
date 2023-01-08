@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>How-to on John&#39;s Two Cents</title>
-    <link>http://johnski001.com/categories/how-to/</link>
+    <link>https://johnski001.com/categories/how-to/</link>
     <description>Recent content in How-to on John&#39;s Two Cents</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-BE</language>
-    <lastBuildDate>Sun, 01 Jan 2023 20:53:28 +0100</lastBuildDate><atom:link href="http://johnski001.com/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2023 20:53:28 +0100</lastBuildDate><atom:link href="https://johnski001.com/categories/how-to/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to fix TPM device detected but connection cannot be established</title>
-      <link>http://johnski001.com/post/2023/how-to-fix-tpm-device-detected-but-connection-cannot-be-established/</link>
+      <link>https://johnski001.com/post/2023/how-to-fix-tpm-device-detected-but-connection-cannot-be-established/</link>
       <pubDate>Sun, 01 Jan 2023 20:53:28 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2023/how-to-fix-tpm-device-detected-but-connection-cannot-be-established/</guid>
+      <guid>https://johnski001.com/post/2023/how-to-fix-tpm-device-detected-but-connection-cannot-be-established/</guid>
       <description>This issue crossed my path after installing VMWare ESXi on a brand new server. After logging for the first time I got a little notice that said: TPM device detected but a connection could not be established.
 With security in min this is something that you can&amp;rsquo;t leave like this so I started a little search and I ended up with the following solution. Bare in mind, the following solution is only tested with Dell servers as I haven&amp;rsquo;t experienced this with other brands that I use, like Lenovo.</description>
     </item>
     
     <item>
       <title>Sonos on a different vlan using the Unifi USG</title>
-      <link>http://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/</link>
+      <link>https://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/</link>
       <pubDate>Sat, 19 Nov 2022 07:00:05 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/</guid>
+      <guid>https://johnski001.com/post/2022/sonos-on-different-vlan-using-usg/</guid>
       <description>Lately, I have been doing some changes on my home network that involved vlanning. Of course, when you say vlan &amp;amp; Sonos in one sentence you&amp;rsquo;ve got to make ready for some issues. You can find my lessons learned in this blog. I can tell you that it wasn&amp;rsquo;t easy to overcome this.
 Situation My network looks a little bit like this:
  Vlan: Internet of things Vlan: End user devices Lan with all the Unifi devices  I&amp;rsquo;m using a Unifi Cloudkey Gen2 plus as my Unifi controller.</description>
@@ -30,10 +30,10 @@ Situation My network looks a little bit like this:
     
     <item>
       <title>Streamdeck Installation on Linux</title>
-      <link>http://johnski001.com/post/2022/streamdeck-installation-on-linux/</link>
+      <link>https://johnski001.com/post/2022/streamdeck-installation-on-linux/</link>
       <pubDate>Fri, 11 Nov 2022 07:00:00 +0100</pubDate>
       
-      <guid>http://johnski001.com/post/2022/streamdeck-installation-on-linux/</guid>
+      <guid>https://johnski001.com/post/2022/streamdeck-installation-on-linux/</guid>
       <description>Nowadays streaming is a widely practiced hobby. Gaming, e-sports, etc&amp;hellip; are all things that aid to the popularity of streaming as a whole. A lot of people dream about streaming content for a living and for that you need to have a setup that enables you to do a lot of different stuff on stream, there comes the Streamdeck into play. The Streamdeck is actually a buttonbox that you can program with all kinds of functionality to enhance your streams or even you worklife.</description>
     </item>
     
